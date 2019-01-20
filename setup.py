@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='hiii-monitor-log',
-    version='0.0.1',
+    version='0.0.2',
     author='cielpy',
     author_email='beijiu572@gmail.com',
     url='https://github.com/cielpy/hiii-monitor-log',
