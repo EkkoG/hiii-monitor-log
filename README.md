@@ -5,7 +5,7 @@
 ### 安装
 
 ```
-pipenv install -e git+https://github.com/cielpy/hiii-monitor-log.git
+pipenv install -e git+https://github.com/cielpy/hiii-monitor-log.git#egg=hiii-monitor-log
 
 ```
 
