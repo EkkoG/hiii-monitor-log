@@ -3,7 +3,7 @@ import time
 
 monitor_spider = None
 
-def count_log(data_type, count, spider=None):
+def count_log(data_type, count=1, spider=None):
     obj = {
         'log_type': 'count',
         'time': time.time(),
@@ -17,7 +17,7 @@ def count_log(data_type, count, spider=None):
 
     assert obj['spider'] is not None
 
-    print('爬虫监控统计信息：{}'.format(json.dumps(obj)))
+    print('爬虫监控统计信息：{}'.format(json.dumps(obj, ensure_ascii=False)))
 
 if __name__ == "__main__":
     pass
