@@ -12,7 +12,9 @@ pipenv install -e git+https://github.com/cielpy/hiii-monitor-log.git#egg=hiii-mo
 ### 使用
 
 ```python
-from monitor_log.monitor_log import count_log
+from monitor_log import monitor_log
 
-count_log('数据类型', 1)
+monitor_log.monitor_spider = '爬虫名'
+
+monitor_log.count_log('数据类型', 1)
 ```
