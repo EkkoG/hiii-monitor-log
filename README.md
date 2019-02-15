@@ -6,7 +6,6 @@
 
 ```
 pipenv install -e git+https://github.com/cielpy/hiii-monitor-log.git#egg=hiii-monitor-log
-
 ```
 
 ### 使用
